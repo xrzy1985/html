@@ -1,0 +1,84 @@
+HTML Attributes
+	All HTML elements can have attributes
+    Attributes provide additional information about an element
+    Attributes are always specified in the start tag
+    Attributes usually come in name/value pairs like: name="value"
+
+href
+	HTML links are defined with the <a> tag. The link address is specified in the href attribute:
+	<a href="https://www.w3schools.com">This is a link</a>
+
+src
+	HTML images are defined with the <img> tag.
+	The filename of the image source is specified in the src attribute:
+	<img src="img_girl.jpg">
+
+Width/Height
+	Images in HTML have a set of size attributes, which specifies the width and height of the image:
+	The image size is specified in pixels: width="500" means 500 pixels wide.
+	<img src="img_girl.jpg" width="500" height="600">
+
+alt
+	The alt attribute specifies an alternative text to be used, when an image cannot be displayed.
+	The value of the attribute can be read by screen readers. This way, someone "listening" to the
+		webpage, e.g. a blind person, can "hear" the element.
+	<img src="img_girl.jpg" alt="Girl with a jacket">
+
+style
+	The style attribute is used to specify the styling of an element, like color, font, size etc.
+	<p style="color:red">I am a paragraph</p>
+
+lang
+	The language of the document can be declared in the <html> tag.
+	The language is declared with the lang attribute.
+	Declaring a language is important for accessibility applications (screen readers) and search engines:
+	<html lang="en-US">
+
+title
+	Here, a title attribute is added to the <p> element. The value of the title attribute
+		will be displayed as a tooltip when you mouse over the paragraph:
+	<p title="I'm a tooltip">
+
+Double/Single Qoutation marks
+	Double quotes around attribute values are the most common in HTML, but single quotes can also be used.
+	In some situations, when the attribute value itself contains double quotes, it is necessary to use single quotes:
+	<p title='John "ShotGun" Nelson'>
+	<p title="John 'ShotGun' Nelson">
+
+
+Use the HTML style attribute for inline styling
+Use the HTML <style> element to define internal CSS
+Use the HTML <link> element to refer to an external CSS file
+Use the HTML <head> element to store <style> and <link> elements
+Use the CSS color property for text colors
+Use the CSS font-family property for text fonts
+Use the CSS font-size property for text sizes
+Use the CSS border property for borders
+Use the CSS padding property for space inside the border
+Use the CSS margin property for space outside the border
+
+USE a id whenever you want to specialize one specific element
+use a class when you want to specialize a group of elements
+
+Use the <a> element to define a link
+Use the href attribute to define the link address
+Use the target attribute to define where to open the linked document
+Use the <img> element (inside <a>) to use an image as a link
+Use the id attribute (id="value") to define bookmarks in a page
+Use the href attribute (href="#value") to link to the bookmark
+
+Use the HTML <img> element to define an image
+Use the HTML src attribute to define the URL of the image
+Use the HTML alt attribute to define an alternate text for an image, if it cannot be displayed
+Use the HTML width and height attributes to define the size of the image
+Use the CSS width and height properties to define the size of the image (alternatively)
+Use the CSS float property to let the image float
+Use the HTML <map> element to define an image-map
+Use the HTML <area> element to define the clickable areas in the image-map
+Use the HTML <img>'s element usemap attribute to point to an image-map
+Use the HTML <picture> element to show different images for different devices
+
+<img> 	Defines an image
+<map> 	Defines an image-map
+<area> 	Defines a clickable area inside an image-map
+<picture> 	Defines a container for multiple image resources
