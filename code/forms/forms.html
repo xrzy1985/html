@@ -13,7 +13,10 @@
 
   <body>
 
-	<form action"where/to/post/the/data.html" method="POST">
+  <!-- The form element is how you submit user data -->
+  <!-- The action is where you specify the data to be sent -->
+  <!-- GET, POST, UPDATE, DELETE, etc are acceptable method parameters -->
+	<form action = "where/to/post/the/data.html" method="POST">
 		<b>Send a message<b><br />
 		<input type="text" name="email" size=40 Placeholder="Default text goes here"/>
 		<br /><br />
@@ -35,6 +38,10 @@
 			<option value="home">Home Email Address</option>
 		</select> <br/><br/>
 
+    <!-- This is common to pass a hidden value in -->
+    <input type="hidden" name="Submitted" value="True" />
+
+  <!-- This will submit the information to the action field in the form tag  -->
 	<input type="submit" value="Send Data" />
 
   </body>
